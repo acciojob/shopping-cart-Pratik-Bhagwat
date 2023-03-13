@@ -7,7 +7,33 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<input
+      type="text"
+      id="item-name-input"
+      placeholder="Enter item Name"
+      required
+    />
+    <input
+      type="number"
+      id="item-price-input"
+      placeholder="Enter item price"
+      required
+    />
+    <button id="add">Add</button>
+
+    <br />
+    <br />
+
+    <table cellspacing="0" cellpadding="10" border="1" id="table">
+      <thead>
+        <tr>
+          <th id="item">Name</th>
+          <th id="price">Price</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <h3 id="total">grandtotal: 0</h3>
     <script type="text/javascript" src="./script.js">
 </script>
 
